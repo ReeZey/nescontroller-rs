@@ -12,17 +12,16 @@ fn main() {
     clock_pin.digital_write(Low);
     latch_pin.digital_write(Low);
 
-    let mut data: u8 = 0;
     let mut last_data: u8 = 0;
     loop {
         latch_pin.digital_write(High);
         latch_pin.digital_write(Low);
 
+	    let mut data: u8 = 0;
         for bit in 0..8 {
-            if data_pin.digital_read() == Low {
+	    let bit_value = data_pin.digital_read();
+            if bit_value == Low {
                 data |= 1 << bit;
-            }else {
-                data &= !(1 << bit);
             }
 
             clock_pin.digital_write(Low);
@@ -30,15 +29,16 @@ fn main() {
 
             thread::sleep(Duration::from_micros(2))
         }
-
-        //weird noise cancelation
-        //buffer one, to make sure random noise doesn't affect controller
-        if last_data == data { 
-            stream.write(&[data]).unwrap();
-            //println!("data [{:#010b}]", data);
+        
+        if data == 255 {
+            continue;
         }
 
-        last_data = data;
+        if last_data == data {
+            stream.write(&[data]).unwrap();
+        }
+        
+	    last_data = data;
         thread::sleep(Duration::from_millis(20));
     }
 }

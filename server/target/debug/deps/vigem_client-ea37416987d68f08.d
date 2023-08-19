@@ -1,0 +1,11 @@
+C:\Users\jag\Desktop\rusty\nescontroller-rs\server-rs\target\debug\deps\vigem_client-ea37416987d68f08.rmeta: C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\lib.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\bus.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\event.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\error.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\client.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\x360.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\ds4.rs
+
+C:\Users\jag\Desktop\rusty\nescontroller-rs\server-rs\target\debug\deps\vigem_client-ea37416987d68f08.d: C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\lib.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\bus.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\event.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\error.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\client.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\x360.rs C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\ds4.rs
+
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\lib.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\bus.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\event.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\error.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\client.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\x360.rs:
+C:\Users\jag\.cargo\registry\src\index.crates.io-6f17d22bba15001f\vigem-client-0.1.4\src\ds4.rs:
